@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;1,600;1,700&display=swap");
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+header {
+  border-bottom: 2px solid rgb(6, 6, 243);
+  width: 100vw;
+  height: 70px;
+  padding: 0.5cm;
+  background-color: rgb(63, 63, 221);
+}
+figure {
+  height: 80px;
+  display: inline-flex;
+}
+main {
+  display: block;
+  border: 1px solid blue;
+  box-shadow: 2px 1px 3px blue;
+  border-radius: 10px;
+
+}
+header figure img {
+  height: 60;
+  width: 140px;
+}
+div.wrapper {
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2cm;
+  margin-bottom: 2cm;
+  
+}
+div.conteudo {
+  padding: 0.5cm;
+  text-align: justify;
+  margin-top: 1cm;
+  margin-bottom: 3cm;
+}
+
+div.conteudo figure {
+  height: 90;
+  width: 140px;
+  line-height: 30px;
+  position: uper;
+}
+div.conteudo p {
+  text-indent: 0.1cm;
+  font-size: 18px;
+}
+div.informacoes-pessoais{
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+}
+div.informacoes-pessoais h3{
+  text-indent: 0.2cm;
+}
+footer{
+  width: 100vw;
+  height: 30px;
+  background-color: rgb(63, 63, 221);
+}
