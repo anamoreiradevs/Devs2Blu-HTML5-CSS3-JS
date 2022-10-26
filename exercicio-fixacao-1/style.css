@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+header#topo {
+  padding: 1em;
+  height: 1vw;
+  width: 100vw;
+  margin-bottom: 2em;
+  background-color: rgb(88, 114, 193);
+  display: flex;
+  align-items: center;
+}
+header#topo img {
+  width: 40px;
+}
+.sobre-curso {
+  background-image: url("/_img/destaque.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 15vw;
+  border-radius: 3vw;
+  padding-left: 2%;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-left: 10px;
+  position: center;
+}
+.container-cursos {
+  padding-left: 2%;
+  align-items: center;
+  margin-top: 1vw;
+  margin-right: 1vw;
+  margin-left: 1vw;
+}
+.container-cursos h1 {
+  text-align: center;
+  margin-top: 3vw;
+}
+
+.lista-cursos {
+  display: flex;
+  align-items: center;
+  font-size: 1vw;
+  margin-top: 1vw;
+  margin-right: 1vw;
+  margin-left: 10vw;
+  list-style: none;
+
+}
+.lista-cursos figcaption {
+  font-size: 20px;
+  padding-top: 1em;
+  font-weight: bold;
+}
+.informacoes h4 {
+  font-weight: lighter;
+  color: rgb(111, 108, 108);
+  text-align: left;
+  font-size: 20px;
+  margin-left: 2%;
+}
+.informacoes h5 {
+  font-weight: lighter;
+  text-align: left;
+  font-size: 20px;
+  color: rgb(86, 83, 83);
+  position: relative;
+  bottom: 20px;
+  margin-left: 2%;
+}
+.lista-cursos p {
+  text-align: left;
+  position: relative;
+  margin-left: 2%;
+  bottom: 35px
+}
+
+.cursos-style {
+  width: 15vw;
+  height: auto;
+  margin-top: 3vw;
+  margin-left: 2%;
+  border: 1px;
+  border-radius: 16px 16px 16px 16px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 25px;
+  font-size: 16px;
+  text-align: center;
+}
+.cursos-style img {
+  width: 15vw;
+  height: 150px;
+  display: flex;
+  border-radius: 10px 10px 0px 0px;
+}
