@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body {
+  background-image: url("/_img/los-angeles.jpg");
+  background-size: 100%;
+}
+header h1 {
+  margin-top: 5%;
+  height: 10%;
+  color: rgb(243, 234, 234);
+  text-align: center;
+}
+
+#tabs {
+  color: rgb(243, 234, 234);
+}
+main {
+  text-align: center;
+  width: 320px;
+  margin: 0 auto;
+}
+
+.links {
+  margin-bottom: 50px;
+}
+button {
+  box-shadow: rgba(228, 206, 7, 0.4) 5px 5px, rgba(236, 84, 7, 0.3) 10px 10px;
+  text-transform: uppercase;
+  outline: none;
+  position: relative;
+}
+
+button:hover {
+  box-shadow: rgba(255, 12, 4, 0.4) 5px 5px, rgba(228, 206, 7, 0.4) 10px 10px;
+}
+.conteudo>section {
+  animation: up 1s;
+}
+@keyframes up {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+  }
+}
