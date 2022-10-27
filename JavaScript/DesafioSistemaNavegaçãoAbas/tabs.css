@@ -11,6 +11,11 @@ header h1 {
   text-align: center;
 }
 
+.logo{
+  border-radius:60%;
+  background-color:transparent;
+}
+
 #tabs {
   color: rgb(243, 234, 234);
 }
